@@ -28,6 +28,7 @@ Addressing the technical gaps required for high-stakes, real-world deployment (s
 
 *   [ ] **Remote Offloading (Backups)**: Add built-in support or clear examples for streaming the `.jsonl` audit file to a secure, remote location (like AWS S3 or IPFS) to prevent data loss.
 *   [ ] **Broader Ecosystem Support**: Build callback handlers for other major agent frameworks beyond LangChain (e.g., LlamaIndex, AutoGen, CrewAI).
+*   [ ] **MCP Server Integration**: Package AegisNode as a Model Context Protocol (MCP) server so any compliant agent (Claude Desktop, etc) can utilize the audit log natively without framework-specific code.
 *   [ ] **Robust Error Handling**: Ensure the async logging mechanism gracefully handles edge cases (e.g., disk full, permission denied) without crashing the main AI agent.
 
 ---
