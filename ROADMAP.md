@@ -16,9 +16,9 @@ The core cryptography and local chaining mechanisms are fully functional.
 ## 🚀 Phase 2: Open Source Distribution (Next Steps)
 To make AegisNode accessible to developers worldwide, it must be easily installable and integrated into standard pipelines.
 
-*   [ ] **Package Configuration**: Create `pyproject.toml` or `setup.py` to formally structure the package for distribution.
+*   [x] **Package Configuration**: Create `pyproject.toml` or `setup.py` to formally structure the package for distribution.
 *   [ ] **PyPI Publishing**: Release the package to the Python Package Index so developers can simply run `pip install aegisnode`.
-*   [ ] **CI/CD Pipeline**: Set up GitHub Actions to automatically run tests (`pytest`) and enforce code formatting (`black`/`flake8`) on every commit.
+*   [x] **CI/CD Pipeline**: Set up GitHub Actions to automatically run tests (`pytest`) and enforce code formatting (`black`/`flake8`) on every commit.
 *   [ ] **Developer Documentation**: Expand the `README.md` or create a `docs` folder with quick-start guides and detailed API references.
 
 ---
