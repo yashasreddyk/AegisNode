@@ -29,11 +29,15 @@ Data is stored using an append-only JSON Lines (`.jsonl`) strategy. Each row str
 }
 ```
 
-## Setup & Dependencies
+## Installation
+
+You can install `aegisnode` via pip:
+
 ```bash
-pip install -r requirements.txt
+pip install aegisnode
 ```
-Dependencies: `pynacl`, `base58`, `langchain-core`
+
+*Note: AegisNode requires Python 3.9+*
 
 ## LangChain Integration
 PoA uses the "Sidecar" pattern for framework integration, keeping the agent logic separate from the immutability logic. A non-blocking `BaseCallbackHandler` plugin is provided:

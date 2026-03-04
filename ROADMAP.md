@@ -19,7 +19,7 @@ To make AegisNode accessible to developers worldwide, it must be easily installa
 *   [x] **Package Configuration**: Create `pyproject.toml` or `setup.py` to formally structure the package for distribution.
 *   [ ] **PyPI Publishing**: Release the package to the Python Package Index so developers can simply run `pip install aegisnode`.
 *   [x] **CI/CD Pipeline**: Set up GitHub Actions to automatically run tests (`pytest`) and enforce code formatting (`black`/`flake8`) on every commit.
-*   [ ] **Developer Documentation**: Expand the `README.md` or create a `docs` folder with quick-start guides and detailed API references.
+*   [x] **Developer Documentation**: Expand the `README.md` or create a `docs` folder with quick-start guides and detailed API references.
 
 ---
 
